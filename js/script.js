@@ -50,7 +50,7 @@ team.forEach((x, i) => {
               class="teams-card-txt d-flex flex-column gap-3 col-sm-6 col-md-6 col-lg-5"
             >
               <p class="fw-bold fs-4 text-dark">${y.name}</p>
-              <p class="fst-italic">${y.portfolio}</p>
+              <p class="fst-italic text-danger">${y.portfolio}</p>
               <p class="fs-small mt-1 text-dark">
               ${y.desc}
               </p>
