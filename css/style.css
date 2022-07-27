@@ -50,7 +50,6 @@ html {
   color: var(--brand-color);
 }
 
-
 .services,
 .teams,
 .partners {
@@ -63,10 +62,6 @@ html {
 
 .boxed {
   width: 65%;
-}
-
-.services li:hover {
-  border: 1px solid white;
 }
 
 .services img {
@@ -89,6 +84,10 @@ html {
   backdrop-filter: blur(15px);
   flex-basis: 280px;
   max-width: 300px;
+}
+
+.services li:hover {
+  border: 1px solid white;
 }
 
 .line,
