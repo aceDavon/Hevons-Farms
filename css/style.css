@@ -19,8 +19,12 @@ html {
   color: var(--brand-color);
 }
 
+.nav-link:active {
+  text-decoration: underline;
+}
+
 .about {
-  background-color: rgb(247,247,247);
+  background-color: rgb(247 247 247);
 }
 
 .banner,
@@ -63,9 +67,10 @@ html {
 }
 
 .partners img {
-  width: 85px;
-  height: 85px;
+  width: 55px;
+  height: 55px;
 }
+
 .services li {
   background-color: rgba(255, 255, 255, 0.115);
   backdrop-filter: blur(15px);
@@ -87,6 +92,40 @@ html {
 
 .local-btn {
   background-color: var(--brand-color);
+}
+
+.logo-img {
+  margin-left: 25%;
+}
+
+.location {
+  background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+    url('../img/Maize.jpg');
+  height: 200px;
+}
+
+.location img {
+  object-fit: contain;
+}
+
+.location-txt {
+  top: 30%;
+  left: 38%;
+}
+
+.hide {
+  display: none !important;
+}
+
+.close-icon {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  cursor: pointer;
+}
+
+#hamburger:hover #close {
+  display: inline-block;
 }
 
 @media screen and (max-width: 768px) {

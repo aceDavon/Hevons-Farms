@@ -25,7 +25,7 @@
 
     <link rel="stylesheet" href="./css/style.css" />
     <title>Hevons::Home</title>
-    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
 
     <!-- Google material Icons -->
 
@@ -37,7 +37,7 @@
   <body class="col-12">
     <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-light py-2 px-sm-4 shadow"
+        class="navbar navbar-expand-lg navbar-light bg-light py-2 px-sm-4 shadow position-relative"
       >
         <div class="container-fluid">
           <button
@@ -48,12 +48,14 @@
             aria-controls="navbarTogglerDemo01"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            id="hamburger"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+            <span class="material-icons close-icon d-lg-none" id="close"> close </span>
+            <div class="container-fluid px-sm-0">
+              <a class="navbar-brand" id="home" href="#">
                 <img
                   src="./img/logo.png"
                   alt="companyLogo"
@@ -64,7 +66,7 @@
                 Hevons Farms
               </a>
             </div>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="topMenu">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#"
                   >About</a
@@ -195,83 +197,19 @@
       >
         <h3 class="h3 text-center">Meet Our Team</h3>
         <div class="line"></div>
-        <div class="d-flex flex-wrap justify-content-between mt-5">
-          <div
+        <div class="d-flex flex-wrap justify-content-between mt-5" id="teams">
+         <div
             class="teams-card-col d-flex gap-4 col-sm-12 col-md-12 col-lg-6 pb-1"
-          >
-            <img
-              src="https://source.unsplash.com/random"
-              class="col-sm-4 col-md-4 col-lg-5"
-              alt="card-img"
-            />
-            <div
-              class="teams-card-txt d-flex flex-column gap-3 col-sm-6 col-md-6 col-lg-5"
-            >
-              <p class="fw-bold fs-4 text-dark">John Doe</p>
-              <p class="fst-italic">Director, Chairman hevons Farms</p>
-              <p class="fs-small mt-1 text-dark">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                non sapiente in.
-              </p>
-            </div>
-          </div>
-          <div
+          ></div>
+         <div
             class="teams-card-col d-flex gap-4 col-sm-12 col-md-12 col-lg-6 pb-1"
-          >
-            <img
-              src="https://source.unsplash.com/random"
-              class="col-sm-4 col-md-4 col-lg-5"
-              alt="card-img"
-            />
-            <div
-              class="teams-card-txt d-flex flex-column gap-3 col-sm-6 col-md-6 col-lg-5"
-            >
-              <p class="fw-bold fs-4 text-dark">John Doe</p>
-              <p class="fst-italic">Director, Chairman hevons Farms</p>
-              <p class="fs-small mt-1 text-dark">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                non sapiente in.
-              </p>
-            </div>
-          </div>
-          <div
+          ></div>
+         <div
             class="teams-card-col d-flex gap-4 col-sm-12 col-md-12 col-lg-6 pb-1"
-          >
-            <img
-              src="https://source.unsplash.com/random"
-              class="col-sm-4 col-md-4 col-lg-5"
-              alt="card-img"
-            />
-            <div
-              class="teams-card-txt d-flex flex-column gap-3 col-sm-6 col-md-6 col-lg-5"
-            >
-              <p class="fw-bold fs-4 text-dark">John Doe</p>
-              <p class="fst-italic">Director, Chairman hevons Farms</p>
-              <p class="fs-small mt-1 text-dark">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                non sapiente in.
-              </p>
-            </div>
-          </div>
-          <div
+          ></div>
+         <div
             class="teams-card-col d-flex gap-4 col-sm-12 col-md-12 col-lg-6 pb-1"
-          >
-            <img
-              src="https://source.unsplash.com/random"
-              class="col-sm-4 col-md-4 col-lg-5"
-              alt="card-img"
-            />
-            <div
-              class="teams-card-txt d-flex flex-column gap-3 col-sm-6 col-md-6 col-lg-5"
-            >
-              <p class="fw-bold fs-4 text-dark">John Doe</p>
-              <p class="fst-italic">Director, Chairman hevons Farms</p>
-              <p class="fs-small mt-1 text-dark">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
-                non sapiente in.
-              </p>
-            </div>
-          </div>
+          ></div>
         </div>
         <button
           type="button"
@@ -316,5 +254,7 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/speakers.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

@@ -7,9 +7,9 @@
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML, CSS, Javascript
+- Bootstrap
+- Git, github
 
 ## Live Demo (if available)
 
