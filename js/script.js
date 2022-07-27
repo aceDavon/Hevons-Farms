@@ -1,28 +1,28 @@
 let initialId = 0;
 const Speakers = [
   {
-    id: ++initialId,
+    id: initialId += 1,
     name: 'Omachi John',
     portfolio: 'B.Sc Chemistry, Digital marketing expert',
     desc: 'Graduated with a Bachelors in chemistry from Kogi state university, have been in the digital market space for over 3 years and an experienced software developer',
     img: './img/speakers/john.jpg',
   },
   {
-    id: ++initialId,
+    id: initialId += 1,
     name: 'Salifu Nurudeen',
     portfolio: 'B.Sc Ind. Chemistry, Digital marketing expert',
     desc: 'Graduated with a Bachelors in chemistry from Kogi state university, have been in the digital market space for over 2 years and an experienced software developer and cypto marketer',
     img: './img/speakers/deen.jpg',
   },
   {
-    id: ++initialId,
+    id: initialId += 1,
     name: 'Onate Wilson Ogwu',
     portfolio: 'LL.B Law, Solicitor',
     desc: 'Graduated with a degree in Law from Kogi state university, Called to The Nigerian Bar(NBA) and practised for over 10years an experienced company law solicitor',
     img: './img/speakers/wilson.jpg',
   },
   {
-    id: ++initialId,
+    id: initialId += 1,
     name: 'OKenyi Ede Catherine',
     portfolio: 'HND Science Lab. Tech., Insurance Under-writing expert',
     desc: 'Graduated with a Diploma in Laboratory Science technology from The Federal Polytechnic Idah, have been in the dinsurance space for over 6 years and an experienced Insurance Under-writer',
@@ -40,9 +40,8 @@ const team = Array.from(teams);
 const arr = [closeBtn, topMenu, hamburger];
 
 team.forEach((x, i) => {
-  const y = Speakers[i]
-  let data;
-  data = ` <img
+  const y = Speakers[i];
+  const data = ` <img
               src="https://source.unsplash.com/random"
               class="col-sm-4 col-md-4 col-lg-5"
               alt="${y.id}"

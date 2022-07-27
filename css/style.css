@@ -99,7 +99,8 @@ html {
 }
 
 .location {
-  background: linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
+  background:
+    linear-gradient(rgba(100, 0, 10, 0.5), rgba(100, 0, 8, 0.5)),
     url('../img/Maize.jpg');
   height: 200px;
 }

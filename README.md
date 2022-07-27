@@ -1,56 +1,72 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# e-comm-white-paper
 
-> Description the project.
-
+> This Project is a website for Hevons Farm managers using Behance template
 
 ## Built With
 
-- HTML, CSS, Javascript
-- Bootstrap
-- Git, github
+- HTML/CSS/JAVASCRIPT
+- NPM, Git, Github
 
-## Live Demo (if available)
+## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link](https://mromachi.github.io/hevons-farm/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**this website can be viewd on all screen sizes**
 
+**The purpose of these project is to build a reesponsive and funtional farm management website using the behance template. This project includes linters for Reporting errors in HTML, CSS , JAVASCRIPT and An open-source, automated tool for improving the quality of web pages, which has audits for performance, accessibility, progressive web apps, SEO and more.**
 
 To get a local copy up and running follow these simple example steps.
 
+## Clone The Repositiry to your local machine by following the steps below
+
+Step 1: Type the following command into a git shell
+
+git clone https://github.com/aceDavon/Hevons-Farms
+
+Step 2: Direct a terminal into the cloned repository directory
+
 ### Prerequisites
+
+1. Node package Manager(NPM)
+   - To install NPM on your local machine, please visit [ NPM official website](https://nodejs.org/en/download/)
+
+- Text editor(Vscode, Atom, NotePad++, Sublime)
 
 ### Setup
 
 ### Install
 
+Run the following commands to install dependencies
+
+```
+
+npm install --save-dev hint@7.x
+npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
+
+```
+
 ### Usage
 
-### Run tests
+```
+
+npx hint .
+npx stylelint "**/*.{css,scss}"
+
+```
 
 ### Deployment
 
-
-
 ## Authors
 
-👤 **Author1**
+👤 **Onate Makoji David**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/aceDavon)
+- Twitter: [@twitterhandle](https://twitter.com/sharkleshevon)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-makoji-b6090971/)
 
 ## 🤝 Contributing
 
@@ -58,15 +74,15 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Acknowledgements
+
+Cindy Shin (template creator)
+
+[Cindy Shin Template](https://www.behance.net/adagio07)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
