@@ -46,7 +46,11 @@ html {
   color: var(--brand-color);
 }
 
-.intro-txt,
+.intro-txt {
+  color: var(--brand-color);
+}
+
+
 .services,
 .teams,
 .partners {

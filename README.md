@@ -27,6 +27,9 @@ Step 1: Type the following command into a git shell
 
 git clone https://github.com/aceDavon/Hevons-Farms
 
+## Video Presentation
+[Google Drive Address](https://drive.google.com/file/d/1IOJwsEik8msAsF1YxgIkqfzCkdWTk3By/view?usp=sharing)
+
 Step 2: Direct a terminal into the cloned repository directory
 
 ### Prerequisites
