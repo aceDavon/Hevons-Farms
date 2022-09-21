@@ -67,9 +67,9 @@ npx stylelint "**/*.{css,scss}"
 
 👤 **Onate Makoji David**
 
-- GitHub: [@githubhandle](https://github.com/aceDavon)
-- Twitter: [@twitterhandle](https://twitter.com/sharkleshevon)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/david-makoji-b6090971/)
+- GitHub: [@aceDavon](https://github.com/aceDavon)
+- Twitter: [@sharkleshevon](https://twitter.com/sharkleshevon)
+- LinkedIn: [Makoji David](https://www.linkedin.com/in/david-makoji-b6090971/)
 
 ## 🤝 Contributing
 
