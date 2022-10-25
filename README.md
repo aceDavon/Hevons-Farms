@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://acedavon.github.io/hevons-farms/)
+[Live Demo Link](https://acedavon.github.io/Hevons-Farms/)
 
 ## Getting Started
 
